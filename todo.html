@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="text">
+    <button onclick="newElement()" class="addbutton">Add items</button>
+    <ul id="list"></ul>
+    <script>
+        function newElement() {
+            var li = document.createElement("li");
+            var inputValue = document.getElementById("text").value;
+            var t = document.createTextNode(inputValue);
+            li.appendChild(t);
+            if (inputValue === '') {
+                alert("write something!");
+            } else {
+                document.getElementById("list").appendChild(li);
+            }
+            document.getElementById("text").value = "";  //it is empty after added items
+            // var span = document.createElement("span");
+            // span.appendChild(txt);
+            // li.appendChild(span);
+
+            var list = document.querySelector('#list');
+            list.addEventListener('click', function (event) {
+                if (event.target.tagName === 'ul') {
+                    event.target.ul.toggle('checked');
+                }
+            }, false);
+        }
+// function liElement(){
+//     li.addEventListener("click",onclickdisplay){
+//     }

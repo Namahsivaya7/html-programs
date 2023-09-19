@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"  content="width=device-width">
+  
+  <!-- <meta http-equiv="refresh" content="5; url=https://www.paytm.com"> -->
+  <style>
+    /*Global Styles*/
+button {
+  height: 36px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+#profile {
+  border-bottom: 2px solid #ccc;
+  padding: 40px 0;
+  max-width: 1250px;
+}
+
+#cover {
+  max-width: 1250px;
+  background: url(https://scontent-pnq1-2.xx.fbcdn.net/v/t1.6435-9/74800937_1297458703758378_1302719806293671936_n.jpg?stp=dst-jpg_p180x540&_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=pxs5vAnBd-kAX9P8eI5&_nc_ht=scontent-pnq1-2.xx&oh=00_AfBnpS_0wpymslPTKPr_31FAwJEnw1OSGtS_815rhHI7zQ&oe=64EB0686);
+  height: 462px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#cover button {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+}
+
+#about > div {
+  display: flex;
+}
+
+.dp {
+  width: 15%;
+  position: relative;
+}
+
+.dp img {
+  border-radius: 50%;
+  position: absolute;
+  top: -24px;
+}
+
+.name-friends {
+  width: 55%;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.name-friends h2 {
+  margin: 12px 0;
+}
+
+.name-friends p {
+  margin: 4px 0;
+  color: #777;
+}
+
+.edit {
+  width: 30%;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.add-to-story {
+  background: #2374E1;
+  color: white;
+}
+.add-to-story:hover{
+
+}
+.friends {
+  padding: 8px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.friends img {
+  border-radius: 50%;
+  margin-right: -8px;
+}
+.home_page{
+    border: 1px solid black;
+}
+
+
+
+
+  </style>
+</head>
+<body>
+<section id="profile">
+  <div id="cover">
+    <button>Edit cover photo</button>
+  </div>
+  <div id="about">
+    <div class="dp">
+      <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t1.6435-1/89479372_1432637190240528_7301545592629493760_n.jpg?stp=dst-jpg_p200x200&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=VZ8Sf-VDqOAAX8C_fAA&_nc_ht=scontent-pnq1-2.xx&oh=00_AfCQ-7s0oWenI8TkMfwNaYUIGle0JQrUbz06omZRFpUgkw&oe=64EB1C18" />
+    </div>
+    <div class="name-friends">
+      <h2>Jyothi Babu Araja</h2>
+      <p>2.1 K Friends</p>
+      <div class="friends">
+        <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-1/357693795_3212363005729059_6727423971992919470_n.jpg?stp=cp0_dst-jpg_p32x32&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kywOUbTIEqYAX_Lxcfm&_nc_ht=scontent-pnq1-2.xx&oh=00_AfB2uCE7C1KgwGwOembNd2dsh4vBe58eNfHb46TyzMa2fw&oe=64C81919" />
+        <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-1/357693795_3212363005729059_6727423971992919470_n.jpg?stp=cp0_dst-jpg_p32x32&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kywOUbTIEqYAX_Lxcfm&_nc_ht=scontent-pnq1-2.xx&oh=00_AfB2uCE7C1KgwGwOembNd2dsh4vBe58eNfHb46TyzMa2fw&oe=64C81919" />
+        <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-1/357693795_3212363005729059_6727423971992919470_n.jpg?stp=cp0_dst-jpg_p32x32&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kywOUbTIEqYAX_Lxcfm&_nc_ht=scontent-pnq1-2.xx&oh=00_AfB2uCE7C1KgwGwOembNd2dsh4vBe58eNfHb46TyzMa2fw&oe=64C81919" />
+        <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-1/357693795_3212363005729059_6727423971992919470_n.jpg?stp=cp0_dst-jpg_p32x32&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kywOUbTIEqYAX_Lxcfm&_nc_ht=scontent-pnq1-2.xx&oh=00_AfB2uCE7C1KgwGwOembNd2dsh4vBe58eNfHb46TyzMa2fw&oe=64C81919" />
+        <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-1/357693795_3212363005729059_6727423971992919470_n.jpg?stp=cp0_dst-jpg_p32x32&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kywOUbTIEqYAX_Lxcfm&_nc_ht=scontent-pnq1-2.xx&oh=00_AfB2uCE7C1KgwGwOembNd2dsh4vBe58eNfHb46TyzMa2fw&oe=64C81919" />
+        <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-1/357693795_3212363005729059_6727423971992919470_n.jpg?stp=cp0_dst-jpg_p32x32&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kywOUbTIEqYAX_Lxcfm&_nc_ht=scontent-pnq1-2.xx&oh=00_AfB2uCE7C1KgwGwOembNd2dsh4vBe58eNfHb46TyzMa2fw&oe=64C81919" />
+        <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-1/357693795_3212363005729059_6727423971992919470_n.jpg?stp=cp0_dst-jpg_p32x32&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kywOUbTIEqYAX_Lxcfm&_nc_ht=scontent-pnq1-2.xx&oh=00_AfB2uCE7C1KgwGwOembNd2dsh4vBe58eNfHb46TyzMa2fw&oe=64C81919" />
+        <img src="https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-1/357693795_3212363005729059_6727423971992919470_n.jpg?stp=cp0_dst-jpg_p32x32&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kywOUbTIEqYAX_Lxcfm&_nc_ht=scontent-pnq1-2.xx&oh=00_AfB2uCE7C1KgwGwOembNd2dsh4vBe58eNfHb46TyzMa2fw&oe=64C81919" />
+      </div>
+    </div>
+        <div class="edit">
+          <a href="http://127.0.0.1:5500/fb%20dup.html " class="add-to-story">Add to Story</a>
+                    <button>Edit Profile</button>
+                    <button>^</button>
+        </div>
+  </div>
+  <svg href="http://127.0.0.1:5500/fb%20dup.html" viewBox="0 0 50 50" width="50px" height="50px">    <path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"/></svg>
+
+  <a target="_blank" href="http://127.0.0.1:5500/fb%20dup.html">Home</a> 
+</section>
+<a href="http://127.0.0.1:5500/fb%20dup.html">Make a payment<svg href="http://127.0.0.1:5500/fb%20dup.html" viewBox="0 0 502.685 502.685" height="50px" width="50px" >
+<path style="fill:#010002;" d="M482.797,276.924c4.53-5.824,6.73-13.331,4.724-20.988L428.05,30.521    c-3.451-13.029-16.847-20.837-29.854-17.386L18.184,113.331C5.22,116.761-2.61,130.2,0.798,143.207L60.269,368.6    c3.408,13.007,16.868,20.816,29.876,17.408l134.278-35.419v75.476c0,42.214,69.954,64.303,139.11,64.303    c69.113,0,139.153-22.089,139.153-64.302V311.61C502.685,297.869,495.157,286.307,482.797,276.924z M439.763,199.226l6.212,23.469    l-75.541,19.953l-6.169-23.512L439.763,199.226z M395.931,50.733l11.799,44.695l-118.014,31.148l-11.799-44.695L395.931,50.733z     M342.975,224.744l6.04,22.951c-27.934,1.251-55.113,6.126-76.943,14.452l-4.616-17.429L342.975,224.744z M79.984,319.224    l-6.169-23.426l75.519-19.975l6.212,23.555L79.984,319.224z M170.625,270.237l75.476-19.953l5.716,21.506    c-1.834,1.122-3.559,2.286-5.242,3.473l-69.781,18.421L170.625,270.237z M477.491,424.209c0,24.612-50.993,44.544-113.958,44.544    c-62.9,0-113.937-19.953-113.937-44.544v-27.718c0-0.928,0.539-1.769,0.69-2.653c3.602,23.34,52.654,41.847,113.247,41.847    c60.614,0,109.687-18.508,113.268-41.847c0.151,0.884,0.69,1.726,0.69,2.653V424.209z M477.491,369.678    c0,24.591-50.993,44.522-113.958,44.522c-62.9,0-113.937-19.931-113.937-44.522V341.96c0-0.906,0.539-1.769,0.69-2.653    c3.602,23.318,52.654,41.869,113.247,41.869c60.614,0,109.687-18.551,113.268-41.869c0.151,0.884,0.69,1.747,0.69,2.653V369.678z     M363.532,356.11c-62.9,0-113.937-19.931-113.937-44.501c0-24.569,51.036-44.5,113.937-44.5c62.965,0,113.958,19.931,113.958,44.5    C477.491,336.179,426.497,356.11,363.532,356.11z"/>
+</svg></a>
+<!-- <a target="_blank" href="http://127.0.0.1:5500/fb%20dup.html">payment</a> -->
+</body>
+</html>

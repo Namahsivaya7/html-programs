@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="plus">+</button>
+    <p id="result"></p>
+    <button id="minus">-</button>
+</body>
+    <script>
+        let counter=0;
+        //display
+        const pElement = document.getElementById("result");
+        //addition
+        const addElement = document.getElementById("plus");
+        addElement.addEventListener('click', function(){
+            if (counter <= 10){
+                counter = counter + 1;
+                pElement.innerHTML = counter;
+            }
+        });
+        //subtraction
+        const subElement = document.getElementById("minus");
+        subElement.addEventListener('click', function(){
+            if(counter > 0){
+            counter = counter - 1 ;
+            pElement.innerHTML = counter;
+            }
+        });
+    </script>
+
+</html>

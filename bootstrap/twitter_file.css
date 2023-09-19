@@ -1,0 +1,8 @@
+.twitter-icon,.home-icon,.lens-iconS {
+    width: 30px;
+    height: 20px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+}

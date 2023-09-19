@@ -1,0 +1,63 @@
+section{
+    background: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?w=996&t=st=1690730829~exp=1690731429~hmac=d90dbcfbca5b0aec406669b7e6a5192cb73f9c48ea7a5e355e6c90ea507a9e89);
+    background-size: cover;
+
+    border:1px solid black;
+    height:492px;
+    margin:30px 30px;
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+}
+.main_page{
+    gap:30px;
+    display: flex;
+    justify-content: space-around;
+    /* border:1px solid black; */
+    
+}
+.home{
+
+    display:flex;
+    flex-direction: column;
+}
+.homee{
+    display: flex;
+    margin-left: 5px;
+}
+.carrier{display: flex;
+    flex-direction: column;
+
+}
+.career_icon{
+    /* height:50px;
+    width: 50px; */
+}
+.career_img{margin-left: 4px;
+
+}
+.about{
+    top:5px;
+    gap:5px;
+    height:0;
+    display: flex;
+    flex-direction: row;
+    color:black
+}
+.ab{
+    margin-top: 4px;
+}
+.payment{
+    margin-top: 50px;
+    margin-left: 14.5%;
+    display: flex;
+    flex-direction: column;
+    max-width: 50px;
+}
+.pay{
+    max-width: 60px;
+}
+.payment:after{
+    scroll-margin-bottom: 100px;
+}

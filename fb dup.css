@@ -1,0 +1,302 @@
+/* .id-sect{
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 100%;
+}
+.first-page{
+top: 80px; */
+}
+/* .dp{
+    font-size: inherit;
+    width: 150px;
+    height: 0px;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.logo{
+    position: absolute;
+    width: 160px;
+height: 160px;
+border-radius: 50%;
+}
+.id{
+    position: relative;
+    top:140px;
+    text-align: center;
+}
+.buttons{
+    
+    justify-content: center;
+    margin-left: 30%;
+    position:relative;
+    top:240px;
+}
+.pen{
+    margin-right: 10px;
+    padding: 10px;
+    border:none;
+    border-radius: 8px;
+}
+.story{margin-right: 10px;
+    padding: 10px;
+    border:none;
+    border-radius: 8px;
+    background: rgb(27, 116, 228);
+}
+.down{
+    margin-right: 10px;
+    padding: 10px;
+    border:none;
+    border-radius: 8px;
+} */
+.line1{
+    position: relative;
+    top: 150px;
+}
+.menu{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+.a{
+    border: 1px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.more{
+    margin-top: 10px;
+}
+.select{
+    border: none;
+}
+hr{width:95%}
+.full-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border: 4px solid grey ;
+    grid-template-columns: 2fr 4fr;
+    
+}
+.left-side{
+    position:initial;
+    margin-top: 170px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+}
+.intro{
+    font-size: 20px;
+
+}
+.bio{
+    /* background-color:rgb(232, 225, 225); */
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 500px;}
+.bag{
+    height: 20px;
+    width: 20px;
+    }
+.bag{
+    padding-right: 10px;
+    height: 20px;
+    width: 20px;
+    }
+.bagimg{
+    margin-top: 40px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.work{
+    margin-left: 10px;
+}
+.clgicon{
+    padding-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+.engg_clg{
+    margin-top: 15px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.dip_icon{
+    padding-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+.dip_clg{
+    margin-top: 15px;
+
+}
+.home_icon{
+    padding-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+.living{
+    margin-top: 15px;
+}
+.location_icon{
+    padding-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+.location{
+    margin-top:15px;
+}
+.details{
+    background-color:rgb(236, 234, 234);
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 500px;
+height: 30px;}
+.hobbies_in{
+    background-color:rgb(236, 234, 234);
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 500px;
+height: 30px;
+}
+.featured_in{
+    background-color:rgb(236, 234, 234);
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 500px;
+height: 30px;
+}
+.right-side{
+    display: ;
+    border:1px solid;
+    position:initial;
+    width: 200px;
+}
+/* #cover{
+    max-width: 1250px;
+    background:url(https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=2000);
+    height: 462px;
+    background-size: cover;
+    position: relative;
+}
+#cover button{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.dp_image{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%; */
+}
+button {
+    height: 36px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  #profile {
+    border-bottom: 2px solid #ccc;
+    padding: 40px 0;
+    max-width: 1250px;
+  }
+  
+  #cover {
+    max-width: 1250px;
+    background: url(https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=2000);
+    height: 462px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  #cover button {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+  
+  #about {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+  }
+  
+  #about > div {
+    display: flex;
+  }
+  
+  .dp {
+    width: 15%;
+    position: relative;
+  }
+  
+  .dp img {
+    border-radius: 50%;
+    position: absolute;
+    top: -24px;
+  }
+  
+  .name-friends {
+    width: 55%;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  
+  .name-friends h2 {
+    margin: 12px 0;
+  }
+  
+  .name-friends p {
+    margin: 4px 0;
+    color: #777;
+  }
+  
+  .edit {
+    width: 30%;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  
+  .add-to-story {
+    background: #2374E1;
+    color: white;
+  }
+  
+  .friends {
+    padding: 8px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  
+  .friends img {
+    border-radius: 50%;
+    margin-right: -8px;
+  }
+. 

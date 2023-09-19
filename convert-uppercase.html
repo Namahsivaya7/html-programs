@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" placeholder="type text here" id="sample-text">
+    <p></p>
+    <script>
+        const sample = document.getElementById("sample-text");
+        const p = document.querySelector("p");
+        sample.addEventListener("input", function () {
+            let str = sample.value.toUpperCase();
+            sample.value = str;
+            p.innerHTML = "The legth of text is :" + " " + str.length;  //To get the length of string
+        });
+    </script>
+</body>
+
+</html>

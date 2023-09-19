@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id='root'></div>
+    <script>
+        const root = document.getElementById('root');
+        function namePyramid() {
+            let name = 'siva';
+            for (let i = 0; i < name.length; i++) {
+                let temp = '';
+                for (let j = 0; j <= i; j++) {
+                    temp += name[j];
+                }
+                console.log(temp);
+            }
+        }
+        namePyramid();
+    </script>
+</body>
+
+</html>

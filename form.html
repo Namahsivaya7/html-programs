@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>application form</title>
+        <style>
+        form{
+            /* display: flex; */
+        
+            /* text-align: center; */
+            justify-content: center;
+            width: 80%;
+
+        } 
+         /* table{justify-content: center; */
+        }
+        
+        
+        .emp{
+            display: flex;  
+                   
+        }
+        .submit{
+            display:block;
+            justify-content:end;
+            margin-top: 3px;
+            margin-right: 60px;
+        }
+        .upph{
+            margin-right: -85px;
+        }
+        </style>
+    </head>
+    <body>
+    <form>
+        <table>
+            <tr> 
+                <td>
+                    <div class="emp">
+                    <img src="form icon.png" ></img></td>
+                <td>
+             <h2>
+                     <strong><span style="color: red;">Employee Registration Form </span></strong></div>
+                     </h2>
+                </td>
+                </tr>
+                    <tr> 
+                        <td>
+    <input type="radio" required>
+    <label>Mr.</label>
+    <input type="radio" required>
+    <label>Mrs.</label>
+    <input type="radio" required>
+    <label>Ms.</label></td>
+
+    </tr>
+    <tr>
+        <td>
+    <label for="fname">First Name</label></td>
+    <td>
+            <input type="text" placeholder="First Name" id="fname" required>
+        </td>
+    </tr>
+    
+        
+    </tr>
+    <br/>
+    <br/>
+    <tr>
+        <td>
+    <label for="Lastname">Last Name</label></td>
+    <td>
+    <input type="text" placeholder="Last Name" id="lastname" required>
+        </td>
+    </tr>
+    <br/>
+    <br/>
+    <tr>
+        <td>
+    <label for="mail1">Mail Address1</label></td>
+    <td>
+    <input type="email" id="mail1" required>
+        </td>
+    </tr>
+    <br/>
+    <br/>
+    <tr>
+        <td>
+    <label for="mail2">Mail Address2</label></td>
+    <td>
+    <input type="email" id="mail2" required>
+        </td>
+    </tr>
+    <br/>
+    <br/>
+    <tr>
+        <td>
+    <label for="city">City</label></td>
+    <td>
+    <input type="text" id="city" required>
+        </td>
+    </tr>
+    <br/>
+    <br/>
+    <tr >
+        <td>
+    <label for="states">State</label></td>
+    <td>
+    <select class="states" id="state" name="state" required>
+        <option value="">Select</option>
+      <option value="Andhra">Andhra Pradesh</option>
+      <option value="Andaman">andaman&nicobar</option>
+      <option value="Assam">Assam</option>
+      <option value="Bihar">Bihar</option>
+      <option value="Goa">Goa</option>
+      <option value="Haryana">Haryanar</option>
+      <option value="Himachal pradesh">Himachal Pradesh</option>
+    </select>
+</td>
+</tr>
+    <!-- <input type="submit"> -->
+    <br/>
+    <br/>
+    <tr>
+        <td>
+    <label for="zip">Zip</label></td>
+    <td>
+    <input type="number" id="zip" required>
+    </td>
+</tr>
+    <br/>
+    <br/>
+    <tr>
+        <td >
+    <label for="upload photo">Upload Photo</label></td>
+    <td>
+    <input class="upph" type="file" name="Browse" required>
+    </td>
+        </tr>
+    <br/>
+    <br/>
+    <tr>
+        <td>
+    <label for="e-mail">E-Mail</label></td>
+    <td>
+    <input type="email" id="e-mail" required>
+        </td>
+        </tr>
+    <br/>
+    <br/>
+    <tr>
+        <td>
+    <label for="mobile">Mobile</label></td>
+    <td>
+    <input type="number" placeholder="+91" id="mobile" required>
+        </td>
+        </tr>
+    <tr >
+        <td>
+            Languages known:</td>
+        <td>
+    <input type="checkbox" id="language1" required>
+    <label for="language1">Gujarati</label>
+    <br/>
+    <input type="checkbox" id="language2">
+    <label for="language2">Hindi</label>
+    <br/>
+    <input type="checkbox" id="language3">
+    <label for="language3">English</label>
+    <br/>
+    <input type="checkbox" id="language2">
+    <label for="language2">Marathi</label>
+</td>
+    </tr>
+    <tr height="50px">
+        <td>
+    <label for="Additional info">Additional information</label></td>
+    <td>
+    <textarea placeholder="Optional" ></textarea>
+    </td>
+        </tr>
+    <br/>
+    <br/>
+    <br/>
+    <tr class="submit">
+        <td>
+    <input type="submit" value="submit" onclick="msg()">
+        </td>
+        <td>
+    <input type="reset" value="Reset">
+    </td>
+        </tr>
+</table>
+</form>
+<script>function msg() {
+    alert("SUCCESSES");
+}
+     </script>
+   </body>
+</html>

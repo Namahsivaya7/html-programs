@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 90px;
+    mar
+}
+body{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full{
+    border: 1px solid;
+    width: 70%;
+    max-width: 1000px;
+    /* min-height: 100px; */
+    background-color: white;
+    margin: 0;
+    display:grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left{
+    position: initial;
+    background-color: white;
+    padding: 25px;
+}
+.right{
+    position: initial;
+    background-color: white;
+    padding: 25px;
+}
+.image, .contact, .skills, .language, .hobbies, .title, .summary, .experience, .education, .project1, .project2{
+    margin-bottom: 30px;
+}
+.name{
+    margin-top: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+th{border: 1px solid black;}
+.h2{background-color: brown;}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="get-fact" class="btn btn-primary">Get country</button>
+    <h4 id="fact"></h4>
+    <script>
+        const factEl = document.querySelector('#fact');
+        const buttonEl = document.querySelector("#get-fact");
+        buttonEl.addEventListener("click", function () {
+            fetch(API)
+                .then((res) => res.json())
+                .then(function (factObj) {
+                    factEl.innerHTML = factObj[0].name + '(' + factObj[0].age + ')';
+                })
+        });
+        const API = "https://api.agify.io/?name[]=siva&name[]=matthew&name[]=jane";
+    </script>
+
+    <button id="get-fact2" class="btn btn-primary">Get country2</button>
+    <h4 id="fact2"></h4>
+    <script>
+        const factEl2 = document.querySelector('#fact2');
+        const buttonEl2 = document.querySelector("#get-fact2");
+        buttonEl2.addEventListener("click", function () {
+            fetch(API2)
+                .then((res) => res.json())
+                .then(function (factObj) {
+                    factEl2.innerHTML = factObj.name + '(' + factObj.age + ')';
+                })
+        });
+        const API2 = "https://api.agify.io/?name=meelad";
+    </script>
+</body>
+
+</html>

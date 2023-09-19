@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #root {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+            margin-left: 40%;
+            height: 300px;
+
+        }
+
+        #firstname {
+            height: 30px;
+            border-radius: 30px;
+        }
+
+        #lastname {
+            border-radius: 30px;
+            height: 30px;
+            margin: 10px 10px;
+        }
+
+        #submit {
+            background-color: rgb(241, 235, 235);
+            color: rgb(81, 10, 235);
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <h2>Login Form</h2>
+        <input id="firstname" placeholder="First Name">
+        <input id="lastname" placeholder="Last Name">
+        <button type="submit" id="submit">Submit</button>
+    </div>
+    <script>
+        const root = document.querySelector('#root');
+        const firstname = document.querySelector('#firstname');
+        const lastname = document.querySelector('#lastname');
+        const button = document.querySelector('#submit');
+        button.addEventListener("click", function (event) {
+            const p = document.createElement("p");
+
+            p.innerHTML = "Welcome" + firstname.value + " " + lastname.value;
+            root.appendChild(p);
+        });
+
+    </script>
+</body>
+
+</html>
